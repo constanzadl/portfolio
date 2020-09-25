@@ -51,11 +51,11 @@ main {
     width: 500px;
     text-align: center;
 }
+.text {
+    margin-right: 13px;
+    padding: 3px;
+}
 .page {
-    /*width: 500px;
-    background-color: white;
-    margin: 0 auto 10px auto;
-    position: relative;*/
     margin-bottom: 10px;
     padding-right: 5px;
     background-color: #F9F9F9;
@@ -64,6 +64,7 @@ main {
 .page h2{
     color: #949191;
     text-align: right;
+    margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -79,6 +80,7 @@ main {
     border: 0px !important;
     width: 95%;
     margin: 10px 0px 0px 0px;
+    padding-bottom: 0;
 }
 footer {
     padding: 10px;
