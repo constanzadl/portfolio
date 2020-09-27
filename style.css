@@ -42,6 +42,28 @@ nav{
 main {
     margin-top: 60px;
 }
+.profile {
+    position: fixed;
+    left: 990px;
+    top: 120px;
+}
+.profiletext{
+    background-color: white;
+    width: 170px;
+    font-size: 12px;
+}
+.profiletext p {
+    padding: 5px;
+}
+.profile-container {
+    background-color: white;
+    width: 170px;
+}
+.profilepic {
+    width: 150px;
+    padding: 10px;
+}
+
 .title {
     margin: 0 auto 20px auto;
     width: 30%;
