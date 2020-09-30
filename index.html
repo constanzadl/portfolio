@@ -52,7 +52,7 @@
                     <img src="images/infinite-scroll.png" alt="Infinite Scroller">
                 </a>
                 <div class="text">
-                    <h2>Infinite Scroll</h2>
+                    <h2>Infinite Scroll (Responsive)</h2>
                     <p>HTML, CSS, JS, JQuery, Unsplash API</p>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                     <img src="images/quote-gen.png" alt="Quote Generator">
                 </a>
                 <div class="text">
-                    <h2>Quote Generator</h2>
+                    <h2>Quote Generator (Responsive)</h2>
                     <p>HTML, CSS, JS, JQuery, Quote GeneratorAPI</p>
                 </div>
             </div>
@@ -79,8 +79,17 @@
                     <img src="images/joke-teller.png" alt="Picture In Picture">
                 </a>
                 <div class="text">
-                    <h2>Joke Teller</h2>
+                    <h2>Joke Teller (Responsive)</h2>
                     <p>HTML, CSS, JS, Joke API, Text-To-Speech API</p>
+                </div>
+            </div>
+            <div class="page">
+                <a href="https://constanzadl.github.io/LightAndDark/" target="_blank">
+                    <img src="images/light.png" alt="Picture In Picture" id="toggle">
+                </a>
+                <div class="text">
+                    <h2>Light and Dark Mode</h2>
+                    <p>HTML, CSS, JS</p>
                 </div>
             </div>
         </div>
@@ -88,5 +97,15 @@
      <footer>
         <span>Constanza Duarte 2020</span>
     </footer>
+    <script>
+        var lightdark = document.getElementById('toggle');
+        lightdark.addEventListener("mouseover", function(){
+            lightdark.src = 'images/dark.png';
+        });
+        lightdark.addEventListener("mouseout", function(){
+            console.log('holi');
+            lightdark.src = 'images/light.png';
+        });
+    </script>
 </body>
 </html>

@@ -38,7 +38,6 @@ nav{
     line-height: 11pt;
     text-decoration: none;
 }
-
 main {
     margin-top: 60px;
 }
@@ -103,6 +102,9 @@ main {
     width: 95%;
     margin: 10px 0px 0px 0px;
     padding-bottom: 0;
+}
+#toggle {
+    height: 450px;
 }
 footer {
     padding: 10px;
