@@ -9,8 +9,8 @@ body {
     color: #949191;
     font-family: 'Roboto', sans-serif;
 }
-.points {
-    font-size: 40px;
+.container {
+    width: 100vw;
 }
 .navbar {
     background-color: #383838;
@@ -75,10 +75,6 @@ main {
     padding: 10px;
 }
 
-.title {
-    margin: 0 auto 20px auto;
-    width: 30%;
-}
 .portfolio {
     margin: 120px auto;
     width: 500px;
@@ -115,12 +111,76 @@ main {
     margin: 10px 0px 0px 0px;
     padding-bottom: 0;
 }
-#toggle {
-    height: 450px;
-}
+
 footer {
     padding: 10px;
-    min-width: 480px;
+    width: 100%;
     background-color: #F9F9F9;
-    text-align: right;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+    .profile {
+        display: none;
+    }
+}
+@media screen and (max-width: 700px){
+    nav{
+        text-transform: lowercase;
+        line-height: 11pt;
+        letter-spacing: -1px;
+        font-weight: normal;
+        text-decoration: none;
+        display: block;
+    }
+    .navbar {
+        position: fixed;
+    }
+    .navbar a, .navbar i{
+        color: #FFFFFF;
+        font-size: 20px;
+    }
+    .navbar span {
+        font-size: 40px;
+        margin: auto 2px;
+    }
+    .profile {
+        display: none;
+    }
+    .container {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 400px){
+    nav{
+        text-transform: lowercase;
+        line-height: 11pt;
+        letter-spacing: -1px;
+        font-weight: normal;
+        text-decoration: none;
+        display: block;
+    }
+    .navbar {
+        position: fixed;
+        width: 100%;
+    }
+    .navbar a, .navbar i{
+        color: #FFFFFF;
+        font-size: 18px;
+
+    }
+    .navbar span {
+        font-size: 30px;
+        margin: auto 1px;
+    }
+    .profile {
+        display: none;
+    }
+    .container {
+        width: 400px;
+    }
+    .portfolio {
+        width: 80%;
+        margin: 10px auto;
+    }
 }
