@@ -30,10 +30,22 @@ nav{
     letter-spacing: -1px;
     font-weight: normal;
     left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar a, .navbar i, .navbar span {
+    margin: 5px 5px 0 5px;
 }
 .navbar a, .navbar i{
     color: #FFFFFF;
     font-size: 25px;
+    text-transform: lowercase;
+    line-height: 11pt;
+    text-decoration: none;
+}
+.navbar span {
+    font-size: 40px;
     text-transform: lowercase;
     line-height: 11pt;
     text-decoration: none;
