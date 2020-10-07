@@ -13,6 +13,7 @@ body {
 .container {
     width: 100vw;
 }
+/*NavBar*/
 .navbar {
     background-color: black;
     position: fixed;
@@ -54,10 +55,19 @@ nav{
 nav .active {
     color: #871661 !important;
 }
+/*Main*/
 main {
     margin-top: 60px;
 }
-
+.title {
+    text-align: center;
+}
+.title h1 {
+    margin-bottom: 0px;
+}
+.title h2 {
+    margin-top: 0px;
+}
 /*Portfolio*/
 .portfolio {
     width: 90%;
@@ -83,76 +93,12 @@ main {
 }
 /*Footer*/
 footer {
+    position: fixed;
+    bottom: 0;
     padding: 10px;
     width: 100%;
     background-color: #F9F9F9;
     text-align: center;
-}
-
-@media screen and (max-width: 1024px){
-    .profile {
-        display: none;
-    }
-}
-@media screen and (max-width: 700px){
-    nav{
-        text-transform: lowercase;
-        line-height: 11pt;
-        letter-spacing: -1px;
-        font-weight: normal;
-        text-decoration: none;
-        display: block;
-    }
-    .navbar {
-        position: fixed;
-    }
-    .navbar a, .navbar i{
-        color: #FFFFFF;
-        font-size: 20px;
-    }
-    .navbar span {
-        font-size: 40px;
-        margin: auto 2px;
-    }
-    .profile {
-        display: none;
-    }
-    .container {
-        width: 400px;
-    }
-}
-@media screen and (max-width: 400px){
-    nav{
-        text-transform: lowercase;
-        line-height: 11pt;
-        letter-spacing: -1px;
-        font-weight: normal;
-        text-decoration: none;
-        display: block;
-    }
-    .navbar {
-        position: fixed;
-        width: 100%;
-    }
-    .navbar a, .navbar i{
-        color: #FFFFFF;
-        font-size: 18px;
-
-    }
-    .navbar span {
-        font-size: 30px;
-        margin: auto 1px;
-    }
-    .profile {
-        display: none;
-    }
-    .container {
-        width: 400px;
-    }
-    .portfolio {
-        width: 80%;
-        margin: 10px auto;
-    }
 }
 
 /*FLIP*/
